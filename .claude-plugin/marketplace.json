@@ -1,0 +1,32 @@
+{
+  "name": "marksman-lsp-cc-plugin",
+  "owner": {
+    "name": "Michael Denyer"
+  },
+  "metadata": {
+    "description": "Markdown language server (Marksman) packaged as a Claude Code LSP plugin"
+  },
+  "plugins": [
+    {
+      "name": "marksman-lsp",
+      "description": "Markdown language server (Marksman) — document outline, heading/wiki-link navigation, and cross-file references",
+      "version": "1.0.0",
+      "author": {
+        "name": "Michael Denyer"
+      },
+      "source": "./plugins/marksman-lsp",
+      "category": "development",
+      "strict": false,
+      "lspServers": {
+        "marksman": {
+          "command": "${CLAUDE_PLUGIN_ROOT}/bin/marksman-lsp",
+          "args": [],
+          "extensionToLanguage": {
+            ".md": "markdown",
+            ".markdown": "markdown"
+          }
+        }
+      }
+    }
+  ]
+}
