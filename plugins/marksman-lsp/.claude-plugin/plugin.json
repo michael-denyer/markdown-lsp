@@ -1,0 +1,13 @@
+{
+  "name": "marksman-lsp",
+  "version": "1.0.0",
+  "description": "Markdown language server (Marksman) — document outline, heading/wiki-link navigation, and cross-file references",
+  "author": {
+    "name": "Michael Denyer",
+    "email": "mdenyer@gmail.com",
+    "url": "https://github.com/michael-denyer"
+  },
+  "homepage": "https://github.com/michael-denyer/marksman-lsp-cc-plugin",
+  "repository": "https://github.com/michael-denyer/marksman-lsp-cc-plugin",
+  "license": "MIT"
+}
